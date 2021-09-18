@@ -4,7 +4,7 @@
  These messages are stored in an array. Each message is an item in the array.
 */
 
-/* 
+
 // Create prompts to collect variable information for name, state, and temperature
 let myName = prompt("What is your name?")
 let myState = prompt("What state do you live in? Two letters, capitalized.")
@@ -42,4 +42,3 @@ if (theTemp < 32 && myState == 'NE') {
      console.log(`${myName}, ${messages[3]}`)
      // when the temp is between 50 and 70 in FL
 }    
-*/ 

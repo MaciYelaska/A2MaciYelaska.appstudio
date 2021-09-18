@@ -28,24 +28,24 @@ switch(true) {
     case switchTemp < 32 && switchState == 'NE' :
         console.log(`${switchName}, ${switchMessages[0]}`);
         break;
-        // for when the temperature is less than 32 in NE
+        // for when temp is less than 32 in NE
             
     case (switchTemp > 32 && switchTemp < 50) && switchState == 'NE' :
         console.log(`${switchName}, ${switchMessages[1]}`);
         break;
-        // for when the temp is between 32 and 50 in NE
+        // for when temp is between 32 and 50 in NE
 
     case (switchTemp > 32 && switchTemp < 50) && switchState == 'FL' :
         console.log(`${switchName}, ${switchMessages[2]}`);
         break;
-        // for when the temp is between 32 and 50 in FL
+        // for when temp is between 32 and 50 in FL
         
     case (switchTemp > 50 && switchTemp < 70) && switchState == 'FL' :
         console.log(`${switchName}, ${switchMessages[3]}`);
         break;
-        // for when the temp is between 50 and 70 in FL
+        // for when temp is between 50 and 70 in FL
         
     default:
         console.log(`${switchName}, we have no advice for you.`)
-        // default statement for when the temp/state fall outside the set cases
+        // default statement for when temp/state fall outside the set cases
 }
